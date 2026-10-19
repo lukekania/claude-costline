@@ -1,0 +1,5 @@
+{"type":"user","cwd":"/p/a","sessionId":"s3","message":{"role":"user","content":"hi"}}
+{"type":"assistant","uuid":"u1","message":{"id":"msg_1","model":"test-model-20260101","usage":{"input_tokens":1000,"cache_creation_input_tokens":2000,"cache_read_input_tokens":10000,"output_tokens":500,"cache_creation":{"ephemeral_5m_input_tokens":2000,"ephemeral_1h_input_tokens":0}}}}
+{"type":"assistant","uuid":"u2","message":{"id":"msg_2","model":"test-model-20260101","usage":{"input_tokens":1,"output_tokens":1}}}
+{"type":"assistant","uuid":"u3","message":{"id":"msg_2","model":"test-model-20260101","usage":{"input_tokens":2000,"cache_creation_input_tokens":4000,"cache_read_input_tokens":0,"output_tokens":1000,"cache_creation":{"ephemeral_5m_input_tokens":0,"ephemeral_1h_input_tokens":4000}}}}
+{"type":"assistant","uuid":"u4","message":{"id":"msg_3","model":"<synthetic>","usage":{"input_tokens":999999,"output_tokens":999999}}}
