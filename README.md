@@ -3,9 +3,7 @@
 A status line for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that keeps a
 **per-project cost ledger which survives transcript cleanup**.
 
-```
-󰚩 Fable 5.1  │   ~/Coding/Private/weyloo  │   main  │   31%  │   $1.23 · proj $45.52  │   1h 30m
-```
+![costline status line: model, directory, branch, context, session cost with project total, duration](docs/statusline.png)
 
 Claude Code prices every session itself and shows the figure in `/cost`, but it only remembers
 what is still in `~/.claude/projects`, and those transcripts are deleted after 30 days
